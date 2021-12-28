@@ -1,0 +1,6 @@
+{
+  "releaseConfig": {
+        "environment": "development",
+        "bearerToken": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiI2MTY1NmY2NzViYTMzMDAwMmYyZTY3YTciLCJpYXQiOjE2Mzg4Njg1ODUsImV4cCI6MTY1NDQyMDU4NX0.ZD9jm2F0pDAEhgNhFNMpKi_-eEiPoCEXtl06XnrqlOE"
+  }
+}

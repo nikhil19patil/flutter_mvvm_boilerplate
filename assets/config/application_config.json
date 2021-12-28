@@ -1,0 +1,13 @@
+{
+    "applicationConfig": {
+        "apiServer": {
+            "useSecureHttp": true,
+            "baseUrl": {
+                "development": "uatapi.pedgog.in/v1",
+                "staging": "",
+                "production": ""
+            }
+        }
+      }
+  }
+  

@@ -1,0 +1,124 @@
+name: illumine
+description: A new Flutter project.
+
+# The following line prevents the package from being accidentally published to
+# pub.dev using `flutter pub publish`. This is preferred for private packages.
+publish_to: 'none' # Remove this line if you wish to publish to pub.dev
+
+# The following defines the version and build number for your application.
+# A version number is three numbers separated by dots, like 1.2.43
+# followed by an optional build number separated by a +.
+# Both the version and the builder number may be overridden in flutter
+# build by specifying --build-name and --build-number, respectively.
+# In Android, build-name is used as versionName while build-number used as versionCode.
+# Read more about Android versioning at https://developer.android.com/studio/publish/versioning
+# In iOS, build-name is used as CFBundleShortVersionString while build-number used as CFBundleVersion.
+# Read more about iOS versioning at
+# https://developer.apple.com/library/archive/documentation/General/Reference/InfoPlistKeyReference/Articles/CoreFoundationKeys.html
+version: 1.0.0+1
+
+environment:
+  sdk: ">=2.15.0 <3.0.0"
+
+# Dependencies specify other packages that your package needs in order to work.
+# To automatically upgrade your package dependencies to the latest versions
+# consider running `flutter pub upgrade --major-versions`. Alternatively,
+# dependencies can be manually updated by changing the version numbers below to
+# the latest version available on pub.dev. To see which dependencies have newer
+# versions available, run `flutter pub outdated`.
+dependencies:
+  flutter:
+    sdk: flutter
+
+
+  # The following adds the Cupertino Icons font to your application.
+  # Use with the CupertinoIcons class for iOS style icons.
+
+  http: ^0.13.4
+  shared_preferences: ^2.0.11
+  another_flushbar: ^1.10.28
+
+  # The following adds the Cupertino Icons font to your application.
+  # Use with the CupertinoIcons class for iOS style icons.
+  cupertino_icons: ^1.0.2
+  # State Management
+  # Ref: https://pub.dev/packages/provider
+  provider: ^6.0.1
+
+  # Local Database
+  # Ref: https://pub.dev/packages/hive
+  hive: ^2.0.4
+  hive_flutter: ^1.1.0
+
+  # For Functional Programming
+  # Ref: https://pub.dev/packages/dartz
+  dartz: ^0.10.0
+
+  # For email validtion
+  # Ref: https://pub.dev/packages/dartz
+  email_validator: ^2.0.1
+
+  # For Network Calls
+  # Ref: https://pub.dev/packages/dio
+  dio: ^4.0.4
+
+  # For SVG Image View
+  # Ref: https://pub.dev/packages/flutter_svg
+  flutter_svg: ^0.23.0+1
+
+  # For Marquee Animation
+  # Ref: https://pub.dev/packages/marquee_widget
+  marquee_widget: ^1.2.0
+
+  # For Shimmering Loading Effect
+  # Ref: https://pub.dev/packages/shimmer
+  shimmer: ^2.0.0
+
+  # For Webviews (Not Confirm)
+  webview_flutter: ^2.3.1
+  flutter_inappwebview: ^5.3.2
+  url_launcher: ^6.0.16
+
+  # For Swiper/Carousel for flutter, with multiple layouts, infinite loop
+  # Ref: https://pub.dev/packages/card_swiper
+  card_swiper: ^1.0.4
+
+  connectivity: ^3.0.6
+
+  cached_network_image: ^3.2.0
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+  flutter_lints: ^1.0.0
+  build_runner: ^2.1.5
+  hive_generator: ^1.1.1
+
+flutter:
+  uses-material-design: true
+
+  fonts:
+    - family: TisaSansPro
+      fonts:
+        - asset: assets/fonts/TisaSansPro/TisaSansPro-Light.ttf
+        - asset: assets/fonts/TisaSansPro/TisaSansPro-Regular.ttf
+        - asset: assets/fonts/TisaSansPro/TisaSansPro-Medium.ttf
+        - asset: assets/fonts/TisaSansPro/TisaSansPro-Bold.ttf
+        - asset: assets/fonts/TisaSansPro/TisaSansPro-ExtraBold.ttf
+
+
+  assets:
+    # Config
+    - assets/config/application_config.json
+    - assets/config/release_config.json
+
+    # Icons
+    - assets/icons/
+    - assets/icons/icon1.svg
+    - assets/icons/google_logo_small.svg
+    - assets/icons/brain_tree.svg
+
+    # Temporary / Development Only
+    - assets/
+
